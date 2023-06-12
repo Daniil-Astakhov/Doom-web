@@ -1,10 +1,10 @@
 {
   "name": "game-site",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack serve"
+    "dev": "webpack serve",
+    "build": "webpack build"
   },
   "author": "",
   "license": "ISC",
@@ -12,11 +12,23 @@
     "css-loader": "^6.8.1",
     "html-webpack-plugin": "^5.5.2",
     "sass": "^1.63.3",
-    "sass-loader": "^13.3.1",
+    "sass-loader": "^13.3.2",
     "serve": "^14.2.0",
     "style-loader": "^3.3.3",
     "webpack": "^5.86.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
-  }
+  },
+  "dependencies": {
+    "swiper": "^8.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniil-Astakhov/Doom-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Daniil-Astakhov/Doom-web/issues"
+  },
+  "homepage": "https://github.com/Daniil-Astakhov/Doom-web#readme",
+  "description": ""
 }
